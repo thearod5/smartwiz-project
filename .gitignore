@@ -1,2 +1,3 @@
-fend/node_modules
-bend/.venv
+fend/fend/node_modules/**
+bend/.venv/**
+**/.idea
