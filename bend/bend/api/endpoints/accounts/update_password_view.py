@@ -6,7 +6,7 @@ from api.endpoints.accounts.password_update_serializer import UpdatePasswordSeri
 
 
 class UpdatePasswordView(APIView):
-    permission_classes = [IsAuthenticated]  # Only authenticated users can change passwords
+    permission_classes = [IsAuthenticated]
 
     def put(self, request):
         serializer = UpdatePasswordSerializer(data=request.data, context={'request': request})

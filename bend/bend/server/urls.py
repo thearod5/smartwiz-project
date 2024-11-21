@@ -29,7 +29,6 @@ urlpatterns = [
     path('login', ApiLoginView.as_view(), name='token_obtain_pair'),
     path('account/password', UpdatePasswordView.as_view(), name='update-password'),
     path('return', ReturnView.as_view(), name='create-return'),
-    path('return/<uuid:return_id>', ReturnView.as_view(), name='update-return'),
     path('submit', SubmitReturnView.as_view(), name='submit-return'),
     path('address', CreateAddressView.as_view(), name='create-address')
 ]
