@@ -3,7 +3,7 @@ from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from api.endpoints.accounts.account_serializer import UserSerializer
+from api.endpoints.accounts.account_serializer import AccountSerializer
 
 
 class AccountView(APIView):
@@ -18,7 +18,7 @@ class AccountView(APIView):
         :param request:
         :return:
         """
-        serializer = UserSerializer(data=request.data)
+        serializer = AccountSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
@@ -26,7 +26,7 @@ class AccountView(APIView):
 
     def put(self, request):
         user = request.user
-        serializer = UserSerializer(user, data=request.data, partial=True)  # Allow partial updates
+        serializer = AccountSerializer(user, data=request.data, partial=True)  # Allow partial updates
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=200)

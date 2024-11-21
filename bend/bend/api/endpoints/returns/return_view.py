@@ -48,6 +48,8 @@ class ReturnView(APIView):
     def get(self, request):
         """
         Returns a list of Returns for the currently authenticated user.
+        :param request: The HTTP request.
+        :return: List of returns for authenticated user.
         """
         returns = Return.objects.filter(user=request.user)  # Query for returns owned by the authenticated user
         serializer = ReturnSerializer(returns, many=True)  # Serialize the list of returns

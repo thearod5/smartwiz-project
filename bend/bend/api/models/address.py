@@ -2,7 +2,7 @@ import uuid
 
 from django.db import models
 
-from api.models.constants import LONG_LEN, MEDIUM_LEN, SHORT_LEN
+from api.models.constants import LONG_LEN, MEDIUM_LEN
 
 
 class Address(models.Model):
@@ -14,12 +14,10 @@ class Address(models.Model):
         help_text="The user associated with this address."
     )
     display = models.CharField(max_length=LONG_LEN, help_text="A user-friendly representation of the address.")
-    street_no = models.CharField(max_length=SHORT_LEN)
     street = models.CharField(max_length=MEDIUM_LEN)
-    apt_no = models.CharField(max_length=SHORT_LEN, blank=True, null=True)
     city = models.CharField(max_length=MEDIUM_LEN)
     state = models.CharField(max_length=MEDIUM_LEN)
-    zip_code = models.CharField(max_length=MEDIUM_LEN, blank=True, null=True, help_text="Optional ZIP or postal code.")
+    zip_code = models.CharField(max_length=MEDIUM_LEN)
     created_at = models.DateTimeField(auto_now_add=True)  # Automatically set when created
     updated_at = models.DateTimeField(auto_now=True)  # Automatically set on update
 

@@ -18,7 +18,7 @@ from django.urls import path
 
 from api.endpoints.accounts.account_view import AccountView
 from api.endpoints.accounts.update_password_view import UpdatePasswordView
-from api.endpoints.addresses.address_view import CreateAddressView
+from api.endpoints.addresses.address_view import AddressView
 from api.endpoints.login.login_view import ApiLoginView
 from api.endpoints.returns.return_view import ReturnView
 from api.endpoints.returns.submit_return_view import SubmitReturnView
@@ -30,5 +30,6 @@ urlpatterns = [
     path('account/password', UpdatePasswordView.as_view(), name='update-password'),
     path('return', ReturnView.as_view(), name='create-return'),
     path('submit', SubmitReturnView.as_view(), name='submit-return'),
-    path('address', CreateAddressView.as_view(), name='create-address')
+    path('address', AddressView.as_view(), name='address'),
+    path('address/<uuid:address_id>', AddressView.as_view(), name='address-delete'),  # New route
 ]
