@@ -1,3 +1,4 @@
+from django.shortcuts import get_object_or_404
 from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
@@ -28,16 +29,11 @@ class ReturnView(APIView):
         if not return_id:
             return Response({"error": "ID is required to update a return."}, status=status.HTTP_400_BAD_REQUEST)
 
-        try:
-            tax_return = Return.objects.get(id=return_id)
-
-            # Ensure the return belongs to the authenticated user
-            if tax_return.user != request.user:
-                return Response({"error": "You are not authorized to edit this return."},
-                                status=status.HTTP_403_FORBIDDEN)
-
-        except Return.DoesNotExist:
-            return Response({"error": "Return not found"}, status=status.HTTP_404_NOT_FOUND)
+        tax_return = get_object_or_404(Return, id=return_id)
+        # Ensure the return belongs to the authenticated user
+        if tax_return.user != request.user:
+            return Response({"error": "You are not authorized to edit this return."},
+                            status=status.HTTP_403_FORBIDDEN)
 
         serializer = ReturnSerializer(tax_return, data=request.data, partial=True, context={'request': request})
         if serializer.is_valid():

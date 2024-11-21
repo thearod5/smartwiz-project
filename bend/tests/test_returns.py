@@ -12,32 +12,22 @@ class ReturnTest(APITestCase):
         """
         Creates a populated return.
         """
-        payload = {
-            "user": str(self.user.id),
-            "year": 2024,
-            "annual_income": 75000,
-            "attended_school": True,
-            "owned_home": False
-        }
-
+        payload = {"year": 2024}  # minimal return initialization
         response = self.client.post('/return', payload, format='json')
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         self.assertIn('id', response.data)
         self.assertEqual(response.data['year'], 2024)
-        self.assertEqual(response.data['annual_income'], 75000)
 
     def test_create_return_missing_field(self):
         """
         Tests that payload must contain user and year of return
         """
-        payload = {
-            "user": str(self.user.id),
-            # "year": 2024 <- missing year
-        }
-
-        response = self.client.post('/return', payload, format='json')
+        response = self.client.post('/return', {}, format='json')
         self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
         self.assertIn('year', response.data)
+
+        user_returns = self._get_returns()
+        self.assertEqual(len(user_returns), 0)
 
     def test_no_duplicate_returns(self):
         """

@@ -7,6 +7,7 @@ class ReturnSerializer(serializers.ModelSerializer):
     class Meta:
         model = Return
         fields = ['id', 'year', 'annual_income', 'attended_school', 'owned_home']  # Exclude 'user'
+        read_only_fields = ["id"]
 
     def validate(self, attrs):
         """

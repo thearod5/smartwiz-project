@@ -19,6 +19,7 @@ from django.urls import path
 from api.endpoints.accounts.account_view import AccountView
 from api.endpoints.accounts.update_password_view import UpdatePasswordView
 from api.endpoints.addresses.address_view import AddressView
+from api.endpoints.items.item_view import ItemView
 from api.endpoints.login.login_view import ApiLoginView
 from api.endpoints.returns.return_view import ReturnView
 from api.endpoints.returns.submit_return_view import SubmitReturnView
@@ -26,9 +27,12 @@ from api.endpoints.returns.submit_return_view import SubmitReturnView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('account', AccountView.as_view(), name='account'),
-    path('login', ApiLoginView.as_view(), name='token_obtain_pair'),
     path('account/password', UpdatePasswordView.as_view(), name='update-password'),
-    path('return', ReturnView.as_view(), name='create-return'),
+    path('login', ApiLoginView.as_view(), name='token_obtain_pair'),
+    path('return', ReturnView.as_view(), name='return-create'),
+    path('item', ItemView.as_view(), name="item-create-update"),
+    path('item/<uuid:item_id>', ItemView.as_view(), name="item-delete"),
+    path('item/return/<uuid:return_id>', ItemView.as_view(), name="item-retrieve"),
     path('submit', SubmitReturnView.as_view(), name='submit-return'),
     path('address', AddressView.as_view(), name='address'),
     path('address/<uuid:address_id>', AddressView.as_view(), name='address-delete'),  # New route

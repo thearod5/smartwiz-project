@@ -15,8 +15,8 @@ class AccountView(APIView):
     def post(self, request):
         """
         Creates new account given a user object.
-        :param request:
-        :return:
+        :param request: The request to create new account.
+        :return: Created user json.
         """
         serializer = AccountSerializer(data=request.data)
         if serializer.is_valid():
@@ -25,6 +25,11 @@ class AccountView(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
     def put(self, request):
+        """
+        Updates user / account information.
+        :param request: Request to update user.
+        :return: The updated user json.
+        """
         user = request.user
         serializer = AccountSerializer(user, data=request.data, partial=True)  # Allow partial updates
         if serializer.is_valid():
