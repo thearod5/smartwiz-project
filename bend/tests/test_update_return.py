@@ -3,15 +3,12 @@ import uuid
 from rest_framework import status
 from rest_framework.test import APITestCase
 
-from app.models import User
+from utils import create_test_account
 
 
 class UpdateReturnTest(APITestCase):
     def setUp(self):
-        self.user = User.objects.create(
-            name="John Doe",
-            email="johndoe@example.com"
-        )
+        self.user = create_test_account(self.client)
 
     def test_update_return(self):
         payload = {
@@ -22,15 +19,15 @@ class UpdateReturnTest(APITestCase):
         # Create Initial Return
         return_response = self.client.post("/return", payload, format="json")
         current_return = return_response.json()
-        null_fields = ["annual_income", "taxable_income", "taxes_owed", "taxes_refunded", "attended_school", "owned_home"]
+        null_fields = ["annualIncome", "taxableIncome", "taxesOwed", "taxesRefunded", "attendedSchool", "ownedHome"]
         for null_field in null_fields:
             self.assertIn(null_field, current_return, msg=f"Current Return\n\n{current_return}")
-            self.assertIsNone(current_return["annual_income"])
+            self.assertIsNone(current_return[null_field])
 
         # Update Return
-        current_return["annual_income"] = 40_000
-        current_return["attended_school"] = True
-        current_return["owned_home"] = True
+        current_return["annualIncome"] = 40_000
+        current_return["attendedSchool"] = True
+        current_return["ownedHome"] = True
 
         # Verify Updates
         response = self.client.put(f'/return/{current_return["id"]}', current_return, format='json')

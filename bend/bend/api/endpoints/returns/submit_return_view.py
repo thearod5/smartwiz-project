@@ -5,8 +5,8 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from app.endpoints.returns.submit_return_serializer import SubmitReturnSerializer
-from app.models import Return
+from api.endpoints.returns.submit_return_serializer import SubmitReturnSerializer
+from api.models import Return
 
 
 class SubmitReturnView(APIView):
@@ -28,7 +28,7 @@ class SubmitReturnView(APIView):
             # Send data to the webhook
             webhook_url = "https://hooks.zapier.com/hooks/catch/9512086/2r5k356/"
             payload = {
-                "name": tax_return.user.name,
+                "name": f"{tax_return.user.first_name} {tax_return.user.last_name}",
                 "address": tax_return.user.primary_address.display if tax_return.user.primary_address else "N/A",
                 "email": tax_return.user.email,
                 "annual_income": tax_return.annual_income,

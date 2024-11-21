@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from app.models import Return
+from api.models import Return
 
 
 class ReturnSerializer(serializers.ModelSerializer):

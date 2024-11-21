@@ -2,13 +2,13 @@ import uuid
 
 from django.db import models
 
-from app.models.constants import LONG_LEN, MEDIUM_LEN, SHORT_LEN
+from api.models.constants import LONG_LEN, MEDIUM_LEN, SHORT_LEN
 
 
 class Address(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)  # Uniquely identifies the user
     user = models.ForeignKey(
-        "app.User",
+        "api.User",
         on_delete=models.CASCADE,
         related_name="addresses",
         help_text="The user associated with this address."

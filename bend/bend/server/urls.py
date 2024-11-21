@@ -16,14 +16,20 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from app.endpoints.accounts.create_account_view import CreateAccountView
-from app.endpoints.returns.return_view import ReturnView
-from app.endpoints.returns.submit_return_view import SubmitReturnView
+from api.endpoints.accounts.account_view import AccountView
+from api.endpoints.accounts.update_password_view import UpdatePasswordView
+from api.endpoints.addresses.address_view import CreateAddressView
+from api.endpoints.login.login_view import ApiLoginView
+from api.endpoints.returns.return_view import ReturnView
+from api.endpoints.returns.submit_return_view import SubmitReturnView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('account', CreateAccountView.as_view(), name='create-account'),
+    path('account', AccountView.as_view(), name='account'),
+    path('login', ApiLoginView.as_view(), name='token_obtain_pair'),
+    path('account/password', UpdatePasswordView.as_view(), name='update-password'),
     path('return', ReturnView.as_view(), name='create-return'),
     path('return/<uuid:return_id>', ReturnView.as_view(), name='update-return'),
     path('submit', SubmitReturnView.as_view(), name='submit-return'),
+    path('address', CreateAddressView.as_view(), name='create-address')
 ]

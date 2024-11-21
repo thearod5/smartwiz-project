@@ -3,15 +3,13 @@ import uuid
 from rest_framework import status
 from rest_framework.test import APITestCase
 
-from app.models import Return, User
+from api.models import Return
+from utils import create_test_account
 
 
 class SubmitReturnTest(APITestCase):
     def setUp(self):
-        self.user = User.objects.create(
-            name="John Doe",
-            email="johndoe@example.com"
-        )
+        self.user = create_test_account(self.client)
         self.tax_return = Return.objects.create(
             user=self.user,
             year=2024,

@@ -2,8 +2,8 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from app.endpoints.returns.return_serializer import ReturnSerializer
-from app.models import Return
+from api.endpoints.returns.return_serializer import ReturnSerializer
+from api.models import Return
 
 
 class ReturnView(APIView):

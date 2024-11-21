@@ -1,15 +1,12 @@
 from rest_framework import status
 from rest_framework.test import APITestCase
 
-from app.models import User
+from utils import create_test_account
 
 
 class CreateReturnTest(APITestCase):
     def setUp(self):
-        self.user = User.objects.create(
-            name="John Doe",
-            email="johndoe@example.com"
-        )
+        self.user = create_test_account(self.client)
 
     def test_create_return(self):
         """
