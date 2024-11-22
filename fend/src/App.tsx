@@ -11,13 +11,22 @@ import TaxForm from "./pages/Form";
 import Summary from "./pages/Summary";
 import NotFound from "./pages/NotFound";
 import ProtectedRoute from "./components/ProtectedRoute";
-import Receipt from "./pages/Receipt"; // Import ProtectedRoute
+import Receipt from "./pages/Receipt";
+import GlobalSnackbar from "./components/GlobalSnackbar";
+import {useSnackbarState} from "./states/snackbarState"; // Import ProtectedRoute
 
 const App: React.FC = () => {
+    const {message, severity, open, closeSnackbar} = useSnackbarState();
     return (
         <Router>
             <ThemeProvider theme={theme}>
                 <LoadingMascots/>
+                <GlobalSnackbar
+                    message={message}
+                    severity={severity}
+                    open={open}
+                    onClose={closeSnackbar}
+                />
                 <Routes>
                     <Route path={ROUTES.HOME} element={<Home/>}/>
                     <Route path={ROUTES.REGISTER} element={<Register/>}/>

@@ -1,3 +1,5 @@
 fend/node_modules/**
 bend/.venv/**
 **/.idea
+**.pyc
+*.env

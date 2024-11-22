@@ -8,16 +8,40 @@ const Home: React.FC = () => {
     const navigate = useNavigate();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const [emailError, setEmailError] = useState(false);
+    const [passwordError, setPasswordError] = useState(false);
     const {setLoading} = useAppState.getState();
     const location = useLocation();
 
     const handleLogin = async () => {
-        setLoading(true)
-        login(email, password).then(() => {
-            const from = location.state?.from?.pathname || "/chat";
-            navigate(from, {replace: true});
-        }).catch(e => console.error(e)).finally(() => setLoading(false))
+        // Reset errors
+        setEmailError(false);
+        setPasswordError(false);
 
+        let valid = true;
+
+        if (!email.trim()) {
+            setEmailError(true);
+            valid = false;
+        }
+
+        if (!password.trim()) {
+            setPasswordError(true);
+            valid = false;
+        }
+
+        if (!valid) {
+            return;
+        }
+
+        setLoading(true);
+        login(email, password)
+            .then(() => {
+                const from = location.state?.from?.pathname || "/chat";
+                navigate(from, {replace: true});
+            })
+            .catch((e) => console.error(e))
+            .finally(() => setLoading(false));
     };
 
     const handleRegisterNavigate = () => {
@@ -56,6 +80,8 @@ const Home: React.FC = () => {
                     fullWidth
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
+                    error={emailError}
+                    helperText={emailError ? "Email is required" : ""}
                 />
                 <TextField
                     label="Password"
@@ -64,6 +90,8 @@ const Home: React.FC = () => {
                     fullWidth
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
+                    error={passwordError}
+                    helperText={passwordError ? "Password is required" : ""}
                 />
                 <Button
                     variant="contained"

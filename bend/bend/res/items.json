@@ -2,6 +2,24 @@
   [
     {
       "type": "credit",
+      "name": "Illinois School Credit",
+      "source": "https://smartwiz-io.notion.site/Tax-Calculator-Application-Project-Outline-1420fcee12d08044a462fb1ba969254e",
+      "description": "State of Illinois gives $1,000 tax credit for attending school. This includes high school, college, and graduate school"
+    },
+    {
+      "type": "deduction",
+      "name": "Illinois Home Ownership",
+      "source": "https://smartwiz-io.notion.site/Tax-Calculator-Application-Project-Outline-1420fcee12d08044a462fb1ba969254e",
+      "description": "State of Illinois gives $18,000 deduction from taxable income for owning a home"
+    },
+    {
+      "type": "deduction",
+      "name": "Illinois Standard Deduction for Non-Home Owners",
+      "source": "https://smartwiz-io.notion.site/Tax-Calculator-Application-Project-Outline-1420fcee12d08044a462fb1ba969254e",
+      "description": "$14,600 deduction if owning home is not selected (standard deduction)"
+    },
+    {
+      "type": "credit",
       "name": "Illinois Earned Income Tax Credit (EITC)",
       "source": "https://tax.illinois.gov/programs/eitc.html",
       "description": "The Illinois Earned Income Tax Credit (EITC) is a state tax benefit for working individuals with low to moderate income. It reduces the amount of tax owed and may result in a refund. Key updates for 2023 include expanded eligibility for taxpayers with Individual Taxpayer Identification Numbers (ITIN) and those without qualifying children who are 18 or older, including seniors over 65. Taxpayers must meet certain income and filing requirements to qualify for the credit."

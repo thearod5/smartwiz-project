@@ -60,7 +60,7 @@ const TaxReturnPage: React.FC = () => {
     const {setReceiptData} = useReceiptState.getState();
     const {setLoading} = useAppState.getState();
     const navigate = useNavigate();
-    
+
     useEffect(() => {
         const totalDeductionAmount = deductions
             .filter(d => ITEM_NAMES.includes(d.name))
@@ -97,16 +97,16 @@ const TaxReturnPage: React.FC = () => {
             owned_home
         }
 
-        const returnCreationResponse = await apiClient.post("/return", payload)
-        const taxReturn = returnCreationResponse.data
-
-        console.log("Return:", taxReturn)
-
-        const submitResponse = await apiClient.post("/submit", {"returnId": taxReturn.id})
-        setReceiptData(submitResponse.data)
         setLoading(true)
-        navigate("/receipt")
-        setLoading(false)
+        apiClient.post("/return", payload).then((returnCreationResponse) => {
+            const taxReturn = returnCreationResponse.data
+            console.log("Return:", taxReturn)
+            apiClient.post("/submit", {"returnId": taxReturn.id}).then((submitResponse) => {
+                setReceiptData(submitResponse.data)
+                navigate("/receipt")
+            }).finally(() => setLoading(false))
+        })
+
     };
     const getAmountStyle = (refund: number) => ({
         color: refund >= 0 ? 'green' : 'red',
@@ -185,7 +185,7 @@ const TaxReturnPage: React.FC = () => {
                 onClick={handleSubmit}
                 disabled={!summary}
             >
-                Submit Tax Return
+                Generate Tax Return
             </Button>
         </Box>
     );

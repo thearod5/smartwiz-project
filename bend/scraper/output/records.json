@@ -1,0 +1,514 @@
+[
+  [
+    {
+      "type": "credit",
+      "name": "Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc.html"
+    },
+    {
+      "type": "credit",
+      "name": "Volunteer Emergency Worker Tax Credit",
+      "source": "https://tax.illinois.gov/individuals/credits/volunteer-emergency-worker-credit.html"
+    },
+    {
+      "type": "credit",
+      "name": "Volunteer Emergency Worker Credit",
+      "source": "https://tax.illinois.gov/individuals/credits/volunteer-emergency-worker-credit.html"
+    },
+    {
+      "type": "credit",
+      "name": "Withholding Income Tax Credits",
+      "source": "https://tax.illinois.gov/research/taxinformation/withholdingincometax.html"
+    },
+    {
+      "type": "credit",
+      "name": "Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc.html"
+    },
+    {
+      "type": "credit",
+      "name": "Volunteer Emergency Worker Tax Credit",
+      "source": "https://tax.illinois.gov/individuals/credits/volunteer-emergency-worker-credit.html"
+    },
+    {
+      "type": "credit",
+      "name": "Business Incentives for Enterprise Zones and High Impact/REV/MICRO Businesses",
+      "source": "https://tax.illinois.gov/businesses/incentives.html"
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids Scholarship Tax Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids.html"
+    },
+    {
+      "type": "credit",
+      "name": "Additions/Subtractions",
+      "source": "https://tax.illinois.gov/individuals/credits/additionssubtractions.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Rental Housing Support Program Surcharge",
+      "source": "https://tax.illinois.gov/research/taxinformation/other/rhsps.html"
+    },
+    {
+      "type": "credit",
+      "name": "Pass-through Entity (PTE) Tax Credit",
+      "source": "https://tax.illinois.gov/research/taxinformation/income/partnership.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Property Tax Payment",
+      "source": "https://tax.illinois.gov/questionsandanswers/answer.html"
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Tax Credits",
+      "source": "https://tax.illinois.gov/individuals/credits.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Suspended 1% low rate on groceries",
+      "source": "https://tax.illinois.gov/content/dam/soi/en/web/tax/research/publications/documents/pios/pio-115.pdf"
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc.html"
+    },
+    {
+      "type": "credit",
+      "name": "Withholding Income Tax Credits",
+      "source": "https://tax.illinois.gov/research/taxinformation/withholdingincometax.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Real Estate Transfer Tax",
+      "source": "https://tax.illinois.gov/research/taxinformation/property/realestate.html"
+    },
+    {
+      "type": "credit",
+      "name": "Rental Housing Support Program Surcharge",
+      "source": "https://tax.illinois.gov/research/taxinformation/other/rhsps.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Watercraft Use Tax Exemptions",
+      "source": "https://tax.illinois.gov/research/taxinformation/sales/watercraft.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Prepaid Wireless E911 Surcharge Exemptions",
+      "source": "https://tax.illinois.gov/research/taxinformation/sales/e911.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Estimated Payments Deduction",
+      "source": "https://tax.illinois.gov/research/publications/pubs/illinois-estimated-payments-requirements-for-individuals-and-businesses.html"
+    },
+    {
+      "type": "credit",
+      "name": "Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc.html"
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids Tax Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids/sgo/sgo-requirements.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Energy Assistance Charge",
+      "source": "https://tax.illinois.gov/research/taxinformation/excise/energy.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Renewable Energy Charge",
+      "source": "https://tax.illinois.gov/research/taxinformation/excise/energy.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Energy Transition Assistance Charge",
+      "source": "https://tax.illinois.gov/research/taxinformation/excise/energy.html"
+    },
+    {
+      "type": "credit",
+      "name": "Building Materials Exemption Certificate",
+      "source": "https://tax.illinois.gov/businesses/incentives/exemptionreportingfaqs.html"
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids Scholarship Tax Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids/contributor.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Rental Purchase Agreement Occupation Tax",
+      "source": "https://tax.illinois.gov/research/taxinformation/sales/rentaloccupationtax.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Invested Capital Tax Deduction",
+      "source": "https://tax.illinois.gov/research/taxinformation/excise/invested.html"
+    },
+    {
+      "type": "credit",
+      "name": "Earned Income Tax Credit (Line 29)",
+      "source": "https://tax.illinois.gov/individuals/ef-qualifications.html"
+    },
+    {
+      "type": "credit",
+      "name": "Earned Income Tax Credit",
+      "source": "https://tax.illinois.gov/programs/eic.html"
+    },
+    {
+      "type": "credit",
+      "name": "Education Expense Credit",
+      "source": "https://tax.illinois.gov/individuals/credits/educationexpensecredit.html"
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids.html"
+    },
+    {
+      "type": "credit",
+      "name": "Property Tax Credit",
+      "source": "https://tax.illinois.gov/individuals/credits/propertytaxcredit.html"
+    },
+    {
+      "type": "credit",
+      "name": "Volunteer Emergency Worker Credit",
+      "source": "https://tax.illinois.gov/individuals/credits/volunteer-emergency-worker-credit.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Property Tax Deduction for Buying Property for Taxes",
+      "source": "https://tax.illinois.gov/questionsandanswers/answer.html"
+    },
+    {
+      "type": "credit",
+      "name": "Business Incentives for Enterprise Zones and High Impact/REV/MICRO Businesses",
+      "source": "https://tax.illinois.gov/businesses/incentives.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Tax Deduction for Fiduciary Income and Replacement Tax",
+      "source": "https://tax.illinois.gov/research/taxinformation/income/fiduciary.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Sales Tax Exemption for Groceries",
+      "source": "https://tax.illinois.gov/questionsandanswers/answer.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Grocery Sales Tax Suspension",
+      "source": "https://tax.illinois.gov/content/dam/soi/en/web/tax/research/publications/documents/pios/pio-115.pdf"
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids Scholarship Tax Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids/schools.html"
+    },
+    {
+      "type": "credit",
+      "name": "Pass-through Entity (PTE) Tax Credit",
+      "source": "https://tax.illinois.gov/research/taxinformation/income/partnership.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Underpayment of Estimated Tax Penalty",
+      "source": "https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-instr/step-10---underpayment-of-estimated-tax-penalty-and-donations.html"
+    },
+    {
+      "type": "credit",
+      "name": "Charitable Donations",
+      "source": "https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-instr/step-10---underpayment-of-estimated-tax-penalty-and-donations.html"
+    },
+    {
+      "type": "credit",
+      "name": "Form Ordering Service",
+      "source": "https://tax.illinois.gov/forms/ordering.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Building Materials Exemption Certificate (BMEC)",
+      "source": "https://tax.illinois.gov/businesses/incentives/exemptionfaqs.html"
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Secure Choice Savings Program",
+      "source": "https://tax.illinois.gov/businesses/securechoiceprogramenforcement.html"
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc.html"
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc.html"
+    },
+    {
+      "type": "credit",
+      "name": "State Tax Overpayment/Rebate Credit (1099-G)",
+      "source": "https://tax.illinois.gov/individuals/1099-g.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Rental Housing Support Program Surcharge",
+      "source": "https://tax.illinois.gov/research/taxinformation/other/rhsps.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Personal Property Replacement Tax",
+      "source": "https://tax.illinois.gov/research/taxrates/income.html"
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc/max-income.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Prepaid Sales Tax Rates for Motor Fuels",
+      "source": "https://tax.illinois.gov/research/taxrates/prepaidsalestax.html"
+    },
+    {
+      "type": "credit",
+      "name": "Historic Preservation Tax Credit Program",
+      "source": "https://dceo.illinois.gov/assistanceforcommunities/illinois-historic-preservation-tax-credit-program.html"
+    },
+    {
+      "type": "credit",
+      "name": "EDGE Agreements",
+      "source": "https://dceo.illinois.gov/expandrelocate/incentives/edgeagreements.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Sales Tax Exemption for Charitable Organizations",
+      "source": "https://tax.illinois.gov/research/publications/pio-37.html"
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids Scholarship Tax Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Military Pay Deduction",
+      "source": "https://tax.illinois.gov/individuals/specialfilingrequirements/military.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Local Tax Deduction for Sales and Use Taxes",
+      "source": "https://tax.illinois.gov/questionsandanswers/answer.html"
+    },
+    {
+      "type": "credit",
+      "name": "Scholarship Granting Organizations (SGO) Tax Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids/sgo.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Certificate of Resale Tax Exemption",
+      "source": "https://tax.illinois.gov/businesses/crtinfo.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Gaming Tax Deductions",
+      "source": "https://tax.illinois.gov/forms/misc/gaming-index.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Illinois Telecommunications Access Corporation (ITAC) Assessment",
+      "source": "https://tax.illinois.gov/research/taxinformation/sales/itac.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Use Tax Deduction",
+      "source": "https://tax.illinois.gov/questionsandanswers/answer.html"
+    },
+    {
+      "type": "deduction",
+      "name": "COVID-19 Disaster Proclamation",
+      "source": "https://www.illinois.gov/government/executive-orders.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Electronic Payment Requirement",
+      "source": "https://tax.illinois.gov/programs/electronicservices/electronicpayments.html"
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Property Tax Payment Installments",
+      "source": "https://tax.illinois.gov/questionsandanswers/answer.html"
+    },
+    {
+      "type": "credit",
+      "name": "Income Tax Credits",
+      "source": "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/miscellaneous/schedule-1299-i.pdf"
+    },
+    {
+      "type": "credit",
+      "name": "Quantum Computing Campuses Tax Credit",
+      "source": "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/miscellaneous/schedule-1299-i.pdf"
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc/max-credit.html"
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Enterprise Zone Program Tax Incentives",
+      "source": "https://dceo.illinois.gov/expandrelocate/incentives/taxassistance/enterprisezone.html"
+    },
+    {
+      "type": "credit",
+      "name": "Clean Energy and Vehicle Credits",
+      "source": "https://www.irs.gov/credits-and-deductions/clean-vehicle-and-energy-credits"
+    },
+    {
+      "type": "credit",
+      "name": "Earned Income Tax Credit (EITC)",
+      "source": "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc"
+    },
+    {
+      "type": "credit",
+      "name": "Child Tax Credit",
+      "source": "https://www.irs.gov/credits-deductions/individuals/child-tax-credit"
+    },
+    {
+      "type": "deduction",
+      "name": "Standard Deduction",
+      "source": "https://www.irs.gov/help/ita/how-much-is-my-standard-deduction"
+    },
+    {
+      "type": "deduction",
+      "name": "Rental Housing Support Program Surcharge",
+      "source": "https://tax.illinois.gov/research/taxinformation/other/rhsps.html"
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids Scholarship Tax Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids/faqs.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Railroad Unemployment Income Exclusion",
+      "source": "https://tax.illinois.gov/individuals/taxableincome.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Personal Property Replacement Tax",
+      "source": "https://tax.illinois.gov/research/taxrates/income.html"
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids",
+      "source": "https://tax.illinois.gov/programs/investinkids.html"
+    },
+    {
+      "type": "credit",
+      "name": "Volunteer Emergency Worker Credit",
+      "source": "https://tax.illinois.gov/individuals/credits/volunteer-emergency-worker-credit.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Social Security Benefits and Certain Retirement Plan Deduction",
+      "source": "https://tax.illinois.gov/individuals/pension.html"
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Exemption Allowance",
+      "source": "https://tax.illinois.gov/individuals/studentquestions.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Illinois Income Subtractions",
+      "source": "https://tax.illinois.gov/individuals/credits/additionssubtractions.html"
+    },
+    {
+      "type": "credit",
+      "name": "Grocery Tax Suspension",
+      "source": "https://tax.illinois.gov/businesses/retailer-resources.html"
+    },
+    {
+      "type": "credit",
+      "name": "Back-to-School State Sales Tax Holiday",
+      "source": "https://tax.illinois.gov/businesses/retailer-resources.html"
+    },
+    {
+      "type": "credit",
+      "name": "Pass-through Entity (PTE) Tax Credit",
+      "source": "https://tax.illinois.gov/research/publications/pubs/pass-through-information.html"
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc/qualifications.html"
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc/how-to-claim.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Payment Installment Plan",
+      "source": "https://tax.illinois.gov/forms/misc/paymentplan.html"
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids Tax Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids.html"
+    },
+    {
+      "type": "credit",
+      "name": "Charitable Games Tax and License Fee",
+      "source": "https://tax.illinois.gov/research/taxinformation/charitygaming/charitable.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Property Tax",
+      "source": "https://tax.illinois.gov/questionsandanswers/answer.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Disaster Relief Tax Extension",
+      "source": "https://tax.illinois.gov/programs/disasterrelief.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Processing Time for Amended Tax Return",
+      "source": "https://tax.illinois.gov/questionsandanswers/answer.html"
+    },
+    {
+      "type": "credit",
+      "name": "Property Tax Credit",
+      "source": "https://tax.illinois.gov/research/publications/pubs/illinois-property-tax-credit.html"
+    },
+    {
+      "type": "credit",
+      "name": "Claim for Credit - Sales and Excise Taxes",
+      "source": "https://tax.illinois.gov/forms/misc/auditsalestax.html"
+    },
+    {
+      "type": "credit",
+      "name": "Administrative Debt Relief Program (ADR)",
+      "source": "https://www.chicago.gov/city/en/sites/administrative-debt-relief-program/home.html"
+    }
+  ]
+]

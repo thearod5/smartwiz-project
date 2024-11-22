@@ -70,14 +70,10 @@ const Register: React.FC = () => {
         }
 
         setLoading(true);
-        try {
-            await createAccountWorkflow(formData);
+        createAccountWorkflow(formData).then(() => {
             navigate("/chat");
-        } catch (error) {
-            console.error("Registration failed:", error);
-        } finally {
-            setLoading(false);
-        }
+        }).catch(e => console.error(e)).finally(() => setLoading(false))
+
     };
 
     return (

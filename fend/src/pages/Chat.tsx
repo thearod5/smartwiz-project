@@ -31,11 +31,12 @@ const ChatPage: React.FC = () => {
             if (!initialMessageSent.current && messages.length === 0) {
                 initialMessageSent.current = true
                 setLoading(true); // Show loading spinner
-                const chatResponse = await apiClient.post("/chat", {messages: []});
-                const {response} = chatResponse.data;
+                apiClient.post("/chat", {messages: []}).then((chatResponse) => {
+                    const {response} = chatResponse.data;
+                    addMessage({role: "assistant", content: response});
+                    setLoading(false); // Hide loading spinner
+                })
 
-                addMessage({role: "assistant", content: response});
-                setLoading(false); // Hide loading spinner
             }
         };
 
@@ -54,19 +55,21 @@ const ChatPage: React.FC = () => {
 
         try {
             const sendMessages = [...messages, userMessage]
-            const chatResponse = await apiClient.post("/chat", {messages: sendMessages});
-            const {response, form} = chatResponse.data;
+            apiClient.post("/chat", {messages: sendMessages}).then((chatResponse) => {
+                const {response, form} = chatResponse.data;
 
-            if (form) {
-                console.log("Tax Items:", form)
-                setTaxItems(form.items)
-                setSalary(form.salary)
-                setLoading(true)
-                navigate("/form")
-                setLoading(false)
-            }
+                if (form) {
+                    console.log("Tax Items:", form)
+                    setTaxItems(form.items)
+                    setSalary(form.salary)
+                    setLoading(true)
+                    navigate("/form")
+                    setLoading(false)
+                } else {
+                    addMessage({role: "assistant", content: response});
+                }
+            })
 
-            addMessage({role: "assistant", content: response});
         } catch (error) {
             console.error("Error fetching chat response:", error);
             addMessage({

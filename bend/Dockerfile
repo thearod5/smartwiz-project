@@ -16,6 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the entire Django project to the container
 COPY bend .
+COPY bend/rate_limited_batcher ./rate_limited_batcher
 
 # Expose port 8000 for the Django development server
 EXPOSE 3000
