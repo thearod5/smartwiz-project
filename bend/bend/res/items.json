@@ -1,0 +1,393 @@
+[
+  [
+    {
+      "type": "credit",
+      "name": "Illinois Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc.html",
+      "description": "The Illinois Earned Income Tax Credit (EITC) is a state tax benefit for working individuals with low to moderate income. It reduces the amount of tax owed and may result in a refund. Key updates for 2023 include expanded eligibility for taxpayers with Individual Taxpayer Identification Numbers (ITIN) and those without qualifying children who are 18 or older, including seniors over 65. Taxpayers must meet certain income and filing requirements to qualify for the credit."
+    },
+    {
+      "type": "credit",
+      "name": "Volunteer Emergency Worker Credit",
+      "source": "https://tax.illinois.gov/individuals/credits/volunteer-emergency-worker-credit.html",
+      "description": "The Volunteer Emergency Worker (VEW) Credit is a $500 non-refundable tax credit available to volunteer fire service emergency workers in Illinois for taxable years 2023-2028. To qualify, an individual must: serve as a volunteer emergency worker for at least 9 months, receive no more than $5,000 in compensation, be listed by their fire chief to the Office of the State Fire Marshal, and be among the first 10,000 qualified applicants. The credit can only be used to reduce Illinois individual income tax liability and cannot result in a refund."
+    },
+    {
+      "type": "credit",
+      "name": "Withholding Income Tax Credits",
+      "source": "https://tax.illinois.gov/research/taxinformation/withholdingincometax.html",
+      "description": "This page details Illinois' Withholding Income Tax requirements. Employers and payers are generally required to withhold Illinois Income Tax if they are required to withhold federal income tax, covering wages, salaries, gambling winnings, unemployment payments, and other income. Key points include:\n\n1. Employers must register to withhold Illinois Income Tax\n2. Withholding agents are liable for taxes they are required to withhold\n3. Payment schedules are either semi-weekly or monthly, depending on withholding amount\n4. All Form IL-941 returns are due quarterly\n5. New taxpayers are automatically assigned to a monthly payment schedule\n\nThe page provides extensive details on filing requirements, payment methods, and credits, but does not describe a specific tax credit or deduction."
+    },
+    {
+      "type": "credit",
+      "name": "Business Incentives for Enterprise Zones and High Impact/REV/MICRO Businesses",
+      "source": "https://tax.illinois.gov/businesses/incentives.html",
+      "description": "This page describes business tax incentives available in Illinois for certified businesses in Enterprise Zones, River Edge Redevelopment Zones, High Impact Businesses, Reimagining Energy and Vehicles (REV) Businesses, Manufacturing Illinois Chips for Real Opportunity (MICRO) Businesses, and Quantum Computing Campuses. The incentives include a sales tax exemption for building materials used in construction, rehabilitation, or renovation of real estate. Businesses must be certified through the Illinois Department of Commerce and Economic Opportunity (DCEO) to be eligible, and must file annual reports for these tax incentives."
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids Tax Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids.html",
+      "description": "The Invest in Kids Scholarship Tax Credit Program offers a 75 percent income tax credit to individuals and businesses that contribute to qualified Scholarship Granting Organizations (SGOs). Contributions support scholarships for students from low-income families to attend qualified non-public schools and technical academies in Illinois. The program expired on December 31, 2023, meaning contributions made after this date are no longer eligible for the tax credit. Any unused tax credits can be carried forward for up to five tax years from the year of contribution."
+    },
+    {
+      "type": "deduction",
+      "name": "Illinois Income Subtractions",
+      "source": "https://tax.illinois.gov/individuals/credits/additionssubtractions.html",
+      "description": "This webpage describes Illinois income tax additions and subtractions. While it provides details about what can and cannot be subtracted from state income tax, it does not describe a specific tax credit or deduction. The page explains that taxpayers must use Schedule M to determine additions and subtractions to their Illinois base income, with specific restrictions on what can be subtracted (such as certain retirement income) and what cannot be subtracted (like unemployment compensation or gambling losses)."
+    },
+    {
+      "type": "deduction",
+      "name": "Rental Housing Support Program Surcharge",
+      "source": "https://tax.illinois.gov/research/taxinformation/other/rhsps.html",
+      "description": "The Rental Housing Support Program Surcharge is a state-mandated fee collected by Illinois County Recorders when recording real estate-related documents. Effective July 1, 2023, the surcharge increased from $9 to $18 per document. The funds are used to support the Rental Housing Support Program within the Illinois Housing Development Authority to help create affordable rental housing. The surcharge applies to various real estate documents like deeds, leases, mortgages, and contracts, with exceptions for public utility easements and documents from government agencies."
+    },
+    {
+      "type": "credit",
+      "name": "Pass-through Entity (PTE) Tax Credit",
+      "source": "https://tax.illinois.gov/research/taxinformation/income/partnership.html",
+      "description": "The page describes the Pass-through Entity (PTE) tax for partnerships in Illinois. Key details include:\n\n1. Partnerships can elect to pay a PTE tax at a rate of 4.95% of net income for tax years ending on or after December 31, 2021, and before January 1, 2026.\n\n2. When a partnership elects to pay PTE tax, each partner receives a tax credit equal to 4.95% of their distributive share of the partnership's net income.\n\n3. Partnerships must make quarterly estimated payments if they expect their replacement tax and PTE tax liability to exceed $500.\n\n4. Partnerships must file Form IL-1065 and indicate their PTE tax election on the form.\n\n5. This is an optional election that provides a potential tax benefit for partners by allowing them to claim a credit for taxes paid at the partnership level."
+    },
+    {
+      "type": "deduction",
+      "name": "Processing Time for Amended Tax Return",
+      "source": "https://tax.illinois.gov/questionsandanswers/answer.html"
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Tax Credits",
+      "source": "https://tax.illinois.gov/individuals/credits.html",
+      "description": "This webpage lists several tax credits available for Illinois taxpayers, including the Earned Income Tax Credit, Education Expense Credit, Invest in Kids Credit (no new credits after 12/31/2023), Property Tax Credit, and Volunteer Emergency Worker Credit. Each credit is linked to a detailed page with specific information about eligibility and application."
+    },
+    {
+      "type": "deduction",
+      "name": "Grocery Sales Tax Suspension",
+      "source": "https://tax.illinois.gov/content/dam/soi/en/web/tax/research/publications/documents/pios/pio-115.pdf",
+      "description": "Illinois implemented a Grocery Tax Suspension from July 1, 2022, through June 30, 2023, reducing the sales tax on qualifying grocery food items from 1% to 0%. This suspension applies only to low-tax-rate food items sold for off-premises consumption, excluding items like alcoholic beverages, prepared foods, soft drinks, candy, and cannabis-infused foods. The suspension has specific qualifying criteria, including that retailers must be able to separately account for food intended for immediate consumption versus food for off-premises consumption. Some exceptions apply, such as certain drinks, snacks, and packaged items that meet specific definitions."
+    },
+    {
+      "type": "deduction",
+      "name": "Real Estate Transfer Tax",
+      "source": "https://tax.illinois.gov/research/taxinformation/property/realestate.html",
+      "description": "The Real Estate Transfer Tax is a state tax imposed on the privilege of transferring title to real estate or a beneficial interest in real property in Illinois. The tax applies to documents (deed or trust agreement) filed for recordation. If the property remains subject to an existing mortgage, only the owner's equity is included in the tax base. The recorder of deeds in each county collects the tax through revenue stamps purchased from the Department of Revenue. Counties may impose an additional 25 cents per $500 of value, and home rule municipalities can also levy their own real estate transfer tax."
+    },
+    {
+      "type": "deduction",
+      "name": "Watercraft Use Tax Exemptions",
+      "source": "https://tax.illinois.gov/research/taxinformation/sales/watercraft.html",
+      "description": "The Watercraft Use Tax is imposed on watercraft purchased from another individual, person, or business that is not a registered Illinois watercraft retailer. The tax applies when a watercraft is acquired through purchase, gift, or transfer. Taxpayers must file Form RUT-75 within 30 days of acquisition or bringing the watercraft into Illinois. The tax rate can be determined using the Use Tax Rate Table. Several exemptions exist, including watercraft already taxed under the Illinois Use Tax Act, those acquired by governmental agencies or charitable organizations, and watercraft used primarily in production agriculture."
+    },
+    {
+      "type": "deduction",
+      "name": "Prepaid Wireless E911 Surcharge Exemptions",
+      "source": "https://tax.illinois.gov/research/taxinformation/sales/e911.html",
+      "description": "The Prepaid Wireless E911 Surcharge is a mandatory charge imposed on consumers when purchasing prepaid wireless telecommunications services. It is designed to fund emergency 9-1-1 services. The surcharge rate varies depending on the location (Chicago or non-Chicago), and it must be collected by sellers during retail transactions of prepaid wireless services. Sellers report this surcharge along with the ITAC Assessment on Form ST-1, Sales and Use Tax and E911 Surcharge Return. Exemptions follow standard sales tax exemptions, such as sales to government entities and certain non-profit organizations."
+    },
+    {
+      "type": "deduction",
+      "name": "Estimated Payments Deduction",
+      "source": "https://tax.illinois.gov/research/publications/pubs/illinois-estimated-payments-requirements-for-individuals-and-businesses.html",
+      "description": "Publication 105 provides comprehensive guidance on estimated tax payment requirements for both individuals and businesses in Illinois. For individuals, estimated payments are required if the expected tax liability exceeds $1,000 after subtracting withholdings and certain credits. For corporations, estimated payments are required if the expected Illinois Income and Replacement Tax liability exceeds $400. Estimated payments are typically due on April 15, June 15, September 15, and either January 15 (for individuals) or December 15 (for businesses). Failure to make timely estimated payments can result in penalties, with late payment penalties ranging from 2% to 10% depending on the delay."
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids Tax Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids/sgo/sgo-requirements.html",
+      "description": "The page describes the requirements for Scholarship Granting Organizations (SGOs) under the Invest in Kids Act in Illinois. SGOs must be 501(c)(3) tax-exempt organizations that provide scholarships to students and obtain prior approval from the Department of Revenue before accepting contributions. The requirements include specific certifications, such as depositing contributions in a separate account, distributing at least 95% of qualified contributions for scholarships, and complying with anti-discrimination provisions. SGOs must also submit documentation including IRS exemption letters, board member information, financial audits, and details about officers and employees."
+    },
+    {
+      "type": "deduction",
+      "name": "Energy Transition Assistance Charge",
+      "source": "https://tax.illinois.gov/research/taxinformation/excise/energy.html",
+      "description": "The page describes three energy-related charges that public utilities must collect monthly from their customers:\n\n1. Energy Assistance Charge: Collected from each customer for electric or natural gas services to provide energy assistance.\n\n2. Renewable Energy Charge: Collected from each customer for electric or natural gas services to support renewable energy resources.\n\n3. Energy Transition Assistance Charge: Collected by electric utilities serving over 500,000 customers for electric services.\n\nThese charges are mandated by state law, with specific statutory references and regulations. Utilities must file monthly returns (Form RPU-6 for electricity, Form RG-6 for natural gas) detailing these charges, which can be filed electronically through MyTax Illinois. The rates vary depending on customer type and usage, and are determined annually."
+    },
+    {
+      "type": "credit",
+      "name": "Building Materials Exemption Certificate",
+      "source": "https://tax.illinois.gov/businesses/incentives/exemptionreportingfaqs.html",
+      "description": "The page describes the Building Materials Exemption Reporting requirements for businesses in Illinois. Businesses must file a report by May 31st for any Building Materials Exemption Certificates that were valid during the previous calendar year (in this case, 2023). Reporting is required even if no exempt materials were purchased. Each certificate is valid for up to two years, and businesses must report the value of tax-exempt building materials purchased between January 1 and December 31 of the reporting year. The report covers all certificates for projects active during the year, submitted under a single report."
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids Scholarship Tax Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids/contributor.html",
+      "description": "The Invest in Kids Scholarship Tax Credit Program offers approved Illinois individual and business taxpayers an income tax credit of 75 percent of their total qualified contributions made to Scholarship Granting Organizations (SGOs). Key details include: credits are capped at $1 million per taxpayer per year, the program distributed up to $75 million in tax credits annually across five regions, and contributions must be pre-approved through a Contribution Authorization Certificate (CAC). The program expired on December 31, 2023, but credits claimed can be carried forward for up to five tax years."
+    },
+    {
+      "type": "deduction",
+      "name": "Rental Purchase Agreement Occupation Tax",
+      "source": "https://tax.illinois.gov/research/taxinformation/sales/rentaloccupationtax.html",
+      "description": "The Rental Purchase Agreement Occupation Tax is a 6.25% tax imposed in Illinois on gross receipts from renting tangible personal property under a rental purchase agreement (rent-to-own transaction). It applies to transactions for personal, family, or household purposes with an initial period of four months or less that are automatically renewable. The tax does not apply to items requiring state title or registration. Businesses must file Form ST-201 electronically through MyTax Illinois and pay the tax by the 20th day of the month following the reporting period."
+    },
+    {
+      "type": "deduction",
+      "name": "Invested Capital Tax Deduction",
+      "source": "https://tax.illinois.gov/research/taxinformation/excise/invested.html",
+      "description": "This webpage describes two specific taxes in Illinois: the Electricity Distribution Tax and the Invested Capital Tax. The Electricity Distribution Tax is imposed on entities that distribute, supply, furnish, or sell electricity for consumption (excluding electric cooperatives, school districts, and local governments). The Invested Capital Tax applies to electric cooperatives, natural gas distributors, and water companies. The tax rates can be found in the Tax Rate Database, and there are specific filing requirements, including an annual return (Form ICT-4) due March 15 and quarterly estimated payments. Taxpayers with an annual liability of $20,000 or more must use Electronic Funds Transfer for tax payments."
+    },
+    {
+      "type": "credit",
+      "name": "Earned Income Tax Credit (Line 29)",
+      "source": "https://tax.illinois.gov/individuals/ef-qualifications.html"
+    },
+    {
+      "type": "credit",
+      "name": "Earned Income Tax Credit",
+      "source": "https://tax.illinois.gov/programs/eic.html",
+      "description": "The Illinois Earned Income Tax Credit (EITC) is a tax benefit for working individuals with low to moderate income. It reduces the amount of tax owed and may result in a refund. For the 2023 tax year, the program was expanded to include taxpayers filing with an Individual Taxpayer Identification Number (ITIN) and those without qualifying children who are 18 or older (including those over 65). To qualify, individuals must meet specific income guidelines and file a tax return, even if they do not owe taxes."
+    },
+    {
+      "type": "credit",
+      "name": "Education Expense Credit",
+      "source": "https://tax.illinois.gov/individuals/credits/educationexpensecredit.html",
+      "description": "The Illinois K-12 Education Expense Credit allows parents or legal guardians to claim a credit for qualified education expenses exceeding $250 for a full-time student under 21 who attended kindergarten through 12th grade at a public or nonpublic school in Illinois. The credit is subject to income limitations: not allowed if federal Adjusted Gross Income (AGI) exceeds $500,000 for married filing jointly or $250,000 for other filing statuses. Taxpayers must complete Step 2, Section B of Schedule ICR to claim this credit."
+    },
+    {
+      "type": "credit",
+      "name": "Property Tax Credit",
+      "source": "https://tax.illinois.gov/individuals/credits/propertytaxcredit.html",
+      "description": "The Illinois Property Tax Credit is a state tax credit for homeowners that allows individuals to claim 5% of property taxes paid on their principal Illinois residence. To be eligible, taxpayers must own and reside in the property in Illinois. The credit is subject to income limitations: not allowed if federal Adjusted Gross Income exceeds $500,000 for married filing jointly or $250,000 for other filing statuses. Claimants must provide property tax details on Schedule ICR and may need to submit documentation verifying property ownership and tax payments."
+    },
+    {
+      "type": "deduction",
+      "name": "Tax Deduction for Fiduciary Income and Replacement Tax",
+      "source": "https://tax.illinois.gov/research/taxinformation/income/fiduciary.html"
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids Scholarship Tax Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids/schools.html",
+      "description": "The page describes the Invest in Kids Scholarship Tax Credit Program in Illinois, which provides a tax credit for contributions to Scholarship Granting Organizations (SGOs) that support students attending qualified non-public schools. Key points include:\n\n1. The program expired on December 31, 2023\n2. Eligible students must:\n- Be from households with income at or below 300% of federal poverty level when first receiving a scholarship\n- Be eligible to attend an Illinois public school the semester before receiving the scholarship\n\n3. Contributions made to SGOs after December 31, 2023, are no longer eligible for a tax credit\n4. Unused tax credits can be carried forward for up to 5 tax years"
+    },
+    {
+      "type": "credit",
+      "name": "Charitable Donations",
+      "source": "https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-instr/step-10---underpayment-of-estimated-tax-penalty-and-donations.html",
+      "description": "This page details two specific tax-related items in Step 10 of the Illinois Form IL-1040 Instructions: 1) Late-payment penalty for underpayment of estimated tax, which applies if a taxpayer has a tax liability over $1,000 after withholdings and credits, or failed to make required estimated tax payments. Certain exceptions exist for farmers, nursing home residents over 65, and those not required to file the previous year's tax return. 2) Voluntary charitable donations, which can be made through Schedule G and will decrease a refund or increase the balance due. Contributions cannot be changed on an amended return."
+    },
+    {
+      "type": "credit",
+      "name": "Form Ordering Service",
+      "source": "https://tax.illinois.gov/forms/ordering.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Building Materials Exemption Certificate (BMEC)",
+      "source": "https://tax.illinois.gov/businesses/incentives/exemptionfaqs.html",
+      "description": "This webpage contains Frequently Asked Questions (FAQs) about the Building Materials Exemption Certification (BMEC) for the Illinois Department of Revenue. The BMEC is a tax exemption program that allows construction contractors and other entities to purchase building materials tax-free when permanently incorporating them into real estate in specific zones, such as Enterprise Zones, River Edge Redevelopment Zones, or High Impact/Reimagining Electric Vehicle Business locations. Key details include eligibility requirements, application process, certificate validity, and rules for using the exemption certificate."
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Secure Choice Savings Program",
+      "source": "https://tax.illinois.gov/businesses/securechoiceprogramenforcement.html",
+      "description": "This page describes the Illinois Secure Choice Savings Program, which requires employers with 5 or more employees who have been in business for two or more years and do not offer a qualified retirement plan to either provide a plan or automatically enroll employees in the Illinois Secure Choice Savings Program. The Illinois Department of Revenue (IDOR) is responsible for enforcing penalty provisions for noncompliant employers. This is not a tax credit or deduction, but a retirement savings program enforcement mechanism."
+    },
+    {
+      "type": "credit",
+      "name": "State Tax Overpayment/Rebate Credit (1099-G)",
+      "source": "https://tax.illinois.gov/individuals/1099-g.html",
+      "description": "The page describes Form 1099-G, which is an informational tax document issued by the Illinois Department of Revenue. The form reports the amount of state tax overpayment, rebates, or credits received in a tax year. Taxpayers receive a 1099-G if their state income tax payments exceeded their tax liability by $10 or more, or if they received a tax rebate. The amount reported may be taxable for federal purposes and must be subtracted from Illinois taxable income. The form is typically issued in mid to late January following the tax year."
+    },
+    {
+      "type": "deduction",
+      "name": "Personal Property Replacement Tax",
+      "source": "https://tax.illinois.gov/research/taxrates/income.html",
+      "description": "This page details current income tax rates for Illinois, listing rates for Business Income Tax, Individual Income Tax, Personal Property Replacement Tax, and Withholding. As of July 1, 2017, the key rates are: Corporations pay 7% of net income, Trusts and estates pay 4.95% of net income, Individual Income Tax is 4.95% of net income, and Personal Property Replacement Tax varies by entity type (2.5% for corporations, 1.5% for partnerships/trusts/S corporations)."
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc/max-income.html",
+      "description": "The Illinois Earned Income Tax Credit (EITC) has specific maximum adjusted gross income limits for tax year 2023 based on filing status and number of children claimed. For single, head of household, or widowed filers with zero children, the maximum income is $17,640. For those filing jointly with zero children, the limit is $24,210. The income limits increase for filers with one, two, and three or more children. Additionally, there is an investment income limit of $11,000 or less to qualify for the credit."
+    },
+    {
+      "type": "deduction",
+      "name": "Prepaid Sales Tax Rates for Motor Fuels",
+      "source": "https://tax.illinois.gov/research/taxrates/prepaidsalestax.html",
+      "description": "This page details the Prepaid Sales Tax rates for various motor fuels in Illinois across different time periods. These rates apply to different types of motor fuels such as gasoline, gasohol, biodiesel blends, and other motor fuels. The current rates (as of 07/01/2024 - 12/31/2024) are 15 cents per gallon for mid-range ethanol blends, 17 cents per gallon for Gasohol (E15), and 19 cents per gallon for all other motor fuels subject to Prepaid Sales Tax. The rates have varied over time, with different percentages applied based on the fuel type and time period."
+    },
+    {
+      "type": "credit",
+      "name": "Historic Preservation Tax Credit Program",
+      "source": "https://dceo.illinois.gov/assistanceforcommunities/illinois-historic-preservation-tax-credit-program.html",
+      "description": "The River Edge Historic Tax Credit Program is a state income-tax credit that provides 25% of qualified expenditures for certified historic structure rehabilitations within specific Redevelopment Zones (Aurora, East St. Louis, Elgin, Peoria & Rockford). The program aims to create jobs, stimulate local economies, and revitalize historic structures and neighborhoods. It was extended to December 31, 2021, and will be administered by the Department of Natural Resources starting January 1, 2019."
+    },
+    {
+      "type": "credit",
+      "name": "EDGE Agreements",
+      "source": "https://dceo.illinois.gov/expandrelocate/incentives/edgeagreements.html",
+      "description": "This webpage describes the EDGE (Economic Development for a Growing Economy) tax credit program in Illinois. The EDGE incentive is a business tax credit program where companies can receive tax credits for creating and maintaining new jobs in the state. Key details include:\n\n1. The program provides transparency about business incentive agreements signed since January 20, 2015.\n2. Companies can receive tax credits based on creating new employee jobs and potentially retaining existing jobs.\n3. The estimated value of credits varies by agreement and depends on the company meeting specific job creation targets.\n4. Some agreements specify whether the project is located in an underserved area.\n5. Agreements can be terminated if a company chooses to locate its project in another state.\n\nThe page provides a detailed table of EDGE agreements, showing company names, execution dates, project locations, job targets, estimated credit values, and underserved area status."
+    },
+    {
+      "type": "deduction",
+      "name": "Sales Tax Exemption for Charitable Organizations",
+      "source": "https://tax.illinois.gov/research/publications/pio-37.html",
+      "description": "This document details tax exemptions for qualified organizations in Illinois, covering both sales tax and property tax exemptions. Organizations must be not-for-profit and exclusively organized for charitable, religious, educational, or governmental purposes to qualify. Sales tax exemptions allow qualifying organizations to make tax-free purchases and have limited ability to sell items without collecting sales tax. Property tax exemptions are available for organizations that own property used exclusively for their exempt purposes. To apply, organizations must submit specific forms and documentation to the Illinois Department of Revenue, with different forms required for different types of organizations (charitable, religious, educational, etc.)."
+    },
+    {
+      "type": "deduction",
+      "name": "Military Pay Deduction",
+      "source": "https://tax.illinois.gov/individuals/specialfilingrequirements/military.html",
+      "description": "Illinois provides a tax deduction for certain military pay that is included in the taxpayer's Adjusted Gross Income (AGI). The deduction covers pay for duty in the armed forces, including basic training, pay for duty as a cadet at military academies, as a midshipman at the Naval Academy, or in ROTC, and pay for serving in U.S. Armed Forces Reserves or National Guard units. However, some types of military income are not eligible for the deduction, such as combat pay excluded from AGI, voluntary separation pay, or pay received as a civilian or for specific programs. Taxpayers must attach their Form W-2 showing military pay when claiming this deduction."
+    },
+    {
+      "type": "credit",
+      "name": "Scholarship Granting Organizations (SGO) Tax Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids/sgo.html",
+      "description": "The Invest in Kids Scholarship Tax Credit Program allows individuals and businesses to make qualified contributions to Scholarship Granting Organizations (SGOs), which then disburse scholarship funds to eligible students attending qualified non-public schools in Illinois. The tax credit program expired on December 31, 2023, and contributions made after that date will not be eligible for a tax credit. Any unused tax credit can be carried forward for up to five tax years from the year of contribution."
+    },
+    {
+      "type": "deduction",
+      "name": "Certificate of Resale Tax Exemption",
+      "source": "https://tax.illinois.gov/businesses/crtinfo.html",
+      "description": "This page details the Certificate of Resale for Illinois businesses, which allows businesses to purchase items tax-free for resale purposes. Businesses must document their tax-exempt purchases by completing Form CRT-61 or creating their own certificate, which must be provided to the retailer. Certificates of Resale should be updated at least every three years. This is not a tax credit or deduction, but a tax exemption process for businesses."
+    },
+    {
+      "type": "deduction",
+      "name": "Gaming Tax Deductions",
+      "source": "https://tax.illinois.gov/forms/misc/gaming-index.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Illinois Telecommunications Access Corporation (ITAC) Assessment",
+      "source": "https://tax.illinois.gov/research/taxinformation/sales/itac.html",
+      "description": "The ITAC (Illinois Telecommunications Access Corporation) Assessment is a charge imposed on consumers for prepaid wireless telecommunications services. It is collected by sellers during retail transactions to fund services for persons with hearing or speech disabilities. The assessment rate changes annually on July 1, and it is reported alongside the Prepaid Wireless E911 Surcharge on Form ST-1. All standard sales tax exemptions apply to this assessment."
+    },
+    {
+      "type": "deduction",
+      "name": "COVID-19 Disaster Proclamation",
+      "source": "https://www.illinois.gov/government/executive-orders.html",
+      "description": "The webpage primarily contains a list of gubernatorial disaster proclamations and executive orders for the State of Illinois across multiple years. These proclamations cover various situations including COVID-19 pandemic responses, asylum seekers, natural disasters like floods and storms, gun violence prevention, and other state emergency matters. While the document contains numerous administrative orders, it does not describe a specific tax credit or deduction that would be directly applicable to taxpayers."
+    },
+    {
+      "type": "deduction",
+      "name": "Electronic Payment Requirement",
+      "source": "https://tax.illinois.gov/programs/electronicservices/electronicpayments.html",
+      "description": "This document outlines the electronic payment requirements for various taxes in Illinois. Taxpayers must make electronic payments if their annual tax liability meets specific thresholds, including $20,000 for business income tax and various other taxes, $12,000 for withholding income tax, and $200,000 for individual income tax. Some taxes require electronic payment regardless of the amount, such as cigarette tax stamps, motor fuel tax, and cannabis-related taxes. Payments can be made through MyTax Illinois, ACH Credit, or for individuals, also by credit card."
+    },
+    {
+      "type": "credit",
+      "name": "Quantum Computing Campuses Tax Credit",
+      "source": "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/miscellaneous/schedule-1299-i.pdf",
+      "description": "This document is a comprehensive guide to Illinois state income tax credits for tax year 2023. It details multiple tax credits available to individuals and businesses, including credits for:\n\n1. Workforce and Economic Development (e.g., Apprenticeship Education Expense, Recovery and Mental Health, Enterprise Zone Investment)\n2. Education-related credits (e.g., K-12 Instructional Materials, Student-Assistance Contributions, Adoption)\n3. Business Investment credits (e.g., Research and Development, Angel Investment, New Markets Development)\n4. Special Employment credits (e.g., Wages Paid to Ex-Felons, Data Center Construction Employment)\n5. Charitable and Community credits (e.g., Affordable Housing Donations, Live Theater Production)\n\nEach credit has specific eligibility requirements, calculation methods, and documentation needs. Some credits are non-transferable, while others can be carried forward for multiple years. Taxpayers must often obtain certificates from various state departments like DCEO, DNR, or DHS to claim these credits."
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc/max-credit.html",
+      "description": "The Illinois Earned Income Tax Credit (EITC) is calculated as 20% of the federal EITC. For tax year 2023, the maximum credit amounts vary based on the number of qualifying children: $120 for no qualifying children, $799 for 1 child, $1,321 for 2 children, and $1,486 for 3 or more children."
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Enterprise Zone Program Tax Incentives",
+      "source": "https://dceo.illinois.gov/expandrelocate/incentives/taxassistance/enterprisezone.html",
+      "description": "The Illinois Enterprise Zone Program is a tax incentive program designed to stimulate economic growth and neighborhood revitalization in economically depressed areas. It offers businesses located or expanding in designated enterprise zones various state and local tax incentives, including: exemptions on retailers' occupation tax for building materials, expanded state sales tax exemptions for manufacturing and pollution control equipment, exemptions on utility and telecommunication taxes, and Enterprise Zone Construction Jobs Credits. Businesses must meet minimum investment and job creation/retention requirements to qualify, and must be certified by the Illinois Department of Commerce."
+    },
+    {
+      "type": "credit",
+      "name": "Clean Energy and Vehicle Credits",
+      "source": "https://www.irs.gov/credits-and-deductions/clean-vehicle-and-energy-credits"
+    },
+    {
+      "type": "credit",
+      "name": "Earned Income Tax Credit (EITC)",
+      "source": "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc",
+      "description": "The Earned Income Tax Credit (EITC) is a tax credit designed to help low- to moderate-income workers and families. It can reduce the taxes owed and potentially increase a taxpayer's refund. Eligibility depends on income level, family size, and other criteria. The credit is particularly beneficial for workers with children, and special rules apply for military and clergy. Taxpayers must meet specific qualifications, including having earned income and meeting certain income thresholds. The credit amount varies based on factors like number of qualifying children and total earned income."
+    },
+    {
+      "type": "credit",
+      "name": "Child Tax Credit",
+      "source": "https://www.irs.gov/credits-deductions/individuals/child-tax-credit",
+      "description": "The Child Tax Credit is a tax credit for families with qualifying children under age 17. To qualify, children must meet specific criteria, including being a U.S. citizen, residing with the taxpayer for more than half the year, and not providing more than half of their own financial support. The full credit is available for individuals with annual income up to $200,000 ($400,000 for joint filers). Taxpayers can claim the credit by completing Form 1040 and Schedule 8812. The credit amount varies based on income and number of qualifying children."
+    },
+    {
+      "type": "deduction",
+      "name": "Standard Deduction",
+      "source": "https://www.irs.gov/help/ita/how-much-is-my-standard-deduction",
+      "description": "The webpage describes the standard deduction, which is a deduction that reduces a taxpayer's taxable income. The amount of the standard deduction depends on the taxpayer's filing status, age, and whether they are blind. This interactive tool helps taxpayers determine their specific standard deduction amount by answering a series of questions. It is designed for U.S. citizens or resident aliens and provides guidance on how the standard deduction affects taxable income."
+    },
+    {
+      "type": "credit",
+      "name": "Invest in Kids Scholarship Tax Credit",
+      "source": "https://tax.illinois.gov/programs/investinkids/faqs.html",
+      "description": "The webpage discusses the Invest in Kids Scholarship Tax Credit Program, which expired on December 31, 2023. Contributions made to a Scholarship Granting Organization (SGO) after that date will not be eligible for a tax credit. Tax credits must be claimed in the year the contribution was made and can be carried forward for up to five tax years. This is a state-level tax credit program that allowed taxpayers to receive a credit for contributions to scholarship organizations supporting students attending qualified schools."
+    },
+    {
+      "type": "deduction",
+      "name": "Railroad Unemployment Income Exclusion",
+      "source": "https://tax.illinois.gov/individuals/taxableincome.html"
+    },
+    {
+      "type": "deduction",
+      "name": "Social Security Benefits and Certain Retirement Plan Deduction",
+      "source": "https://tax.illinois.gov/individuals/pension.html",
+      "description": "Illinois offers a tax subtraction for various retirement and Social Security benefits. Taxpayers can subtract the amount of federally taxed Social Security and retirement income from their adjusted gross income, including income from qualified employee benefit plans (like 401(K) and railroad retirement), Individual Retirement Accounts, self-employed retirement plans, government retirement plans, and certain other retirement-related income reported on federal tax forms."
+    },
+    {
+      "type": "deduction",
+      "name": "Exemption Allowance",
+      "source": "https://tax.illinois.gov/individuals/studentquestions.html",
+      "description": "Illinois provides a $2,425 exemption for individual tax filers who can claim themselves on their tax return. If someone else claims the taxpayer as a dependent, they are not entitled to the exemption unless their Illinois base income is $2,425 or less. This is not a standard deduction like on the federal tax return, but rather an exemption amount."
+    },
+    {
+      "type": "credit",
+      "name": "Back-to-School State Sales Tax Holiday",
+      "source": "https://tax.illinois.gov/businesses/retailer-resources.html",
+      "description": "Under the Illinois Family Relief Plan (Public Act 102-0700), the state implemented two temporary tax reductions: a grocery tax suspension from July 1, 2022, to June 30, 2023, and a back-to-school state sales tax holiday from August 5, 2022, to August 14, 2022. During the grocery tax suspension period, the state sales tax on groceries was reduced to 0%. These were temporary measures designed to provide tax relief to Illinois residents."
+    },
+    {
+      "type": "credit",
+      "name": "Pass-through Entity (PTE) Tax Credit",
+      "source": "https://tax.illinois.gov/research/publications/pubs/pass-through-information.html",
+      "description": "This page provides detailed information about the Pass-through Entity Tax (PTE Tax) in Illinois. The PTE Tax is an optional tax for partnerships and S corporations for tax years ending on or after December 31, 2021, and before January 1, 2026. Entities can elect to pay a 4.95% tax on their net income, with partners or shareholders receiving a corresponding tax credit. The election is made on Form IL-1065 or Form IL-1120-ST and is irrevocable after the extended due date. Pass-through entities must make quarterly estimated payments if the expected tax due is more than $500. The tax allows members to potentially satisfy their Illinois tax liability through the entity-level tax and associated credits."
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc/qualifications.html",
+      "description": "The Illinois Earned Income Tax Credit (EITC) is a state tax credit for workers with low to moderate income. To qualify in tax year 2023, individuals must: have earned income under $63,398, have investment income below $11,000, possess a valid Social Security number or ITIN, be at least 18 years old, be a U.S. citizen or resident alien, not file Form 2555 for foreign earned income, and meet certain spouse filing rules. Qualifying children can increase the credit amount, and no qualifying children are required to receive the credit."
+    },
+    {
+      "type": "credit",
+      "name": "Illinois Earned Income Tax Credit (EITC)",
+      "source": "https://tax.illinois.gov/programs/eitc/how-to-claim.html",
+      "description": "The Illinois Earned Income Tax Credit (EITC) can be claimed on the 2023 IL-1040 tax return using Schedule IL-E/EIC. There are three scenarios for claiming the credit:\n\n1. If you qualified for the federal EITC: Complete Schedule IL-E/EIC, do not check box 5, and do not complete Page 3.\n\n2. If you qualified for the federal EITC but could not claim a child due to an ITIN: Check box 5 on Schedule IL-E/EIC and complete the Illinois Expanded EITC Worksheet on Page 3.\n\n3. If you did not qualify for the federal EITC (due to ITIN or age requirements) but qualify for the Illinois EITC: Check box 5 on Schedule IL-E/EIC and complete the Illinois Expanded EITC Worksheet on Page 3."
+    },
+    {
+      "type": "deduction",
+      "name": "Payment Installment Plan",
+      "source": "https://tax.illinois.gov/forms/misc/paymentplan.html",
+      "description": "The page describes a tax payment installment plan offered by the Illinois Department of Revenue for taxpayers experiencing financial hardship. Taxpayers can request a payment plan through MyTax Illinois online, by completing Form CPP-1, or by submitting additional financial documentation if the outstanding amount exceeds $15,000. The payment plan allows taxpayers to pay tax delinquencies through monthly payments based on their financial condition. To qualify, taxpayers must have filed all tax returns through the current date, and all outstanding liabilities will be included in the same payment plan."
+    },
+    {
+      "type": "credit",
+      "name": "Charitable Games Tax and License Fee",
+      "source": "https://tax.illinois.gov/research/taxinformation/charitygaming/charitable.html",
+      "description": "This page describes the Charitable Games Tax and License Fees in Illinois. It details requirements for organizations conducting charitable games, including eligibility criteria, licensing fees, and reporting requirements. The tax is imposed on the net proceeds of charitable games, with annual license fees for organizations, suppliers, and providers. Organizations must be non-profit, have been in existence for at least five years, and be exempt from federal income tax. They are limited to four charitable game events per year, with specific rules on game types, prize limits, and volunteer participation. License fees include $400 for organizations (valid for two years), $500-$1,500 for gaming equipment suppliers, and $50-$150 for providers renting event space."
+    },
+    {
+      "type": "deduction",
+      "name": "Disaster Relief Tax Extension",
+      "source": "https://tax.illinois.gov/programs/disasterrelief.html",
+      "description": "This page describes disaster relief tax provisions in Illinois. While not a specific tax credit or deduction, it outlines tax relief measures for taxpayers affected by natural disasters. Key points include: 1) Automatic six-month extension for filing Illinois tax returns when counties are declared disaster areas, 2) Extensions do not automatically extend tax payment deadlines unless specifically stated, 3) Taxpayers can request penalty waivers due to reasonable cause from a disaster, 4) Refers to both state and federal disaster tax relief resources."
+    },
+    {
+      "type": "credit",
+      "name": "Property Tax Credit",
+      "source": "https://tax.illinois.gov/research/publications/pubs/illinois-property-tax-credit.html",
+      "description": "The Illinois Property Tax Credit is a tax credit for homeowners equal to 5% of property taxes paid on their principal residence in Illinois. To be eligible, taxpayers must own their residence and have an adjusted gross income below $500,000 (for married filing jointly) or $250,000 (for other returns). The credit can only reduce income tax owed to zero and cannot result in a refund. Taxpayers must claim the credit on Schedule ICR and include their property number. The credit applies only to property taxes paid on a principal residence in Illinois and has specific rules about what property taxes can and cannot be included."
+    },
+    {
+      "type": "credit",
+      "name": "Claim for Credit - Sales and Excise Taxes",
+      "source": "https://tax.illinois.gov/forms/misc/auditsalestax.html",
+      "description": "This page describes tax credit claim forms for audited periods related to sales, excise, and vehicle taxes in Illinois. The forms (EDA-98, EDA-98-E, EDA-98-U) allow taxpayers to claim credits for taxes paid during specific audited periods, including sales taxes, E911 surcharges, excise taxes, and vehicle/aircraft use taxes. These forms are specifically for use during tax audits and provide a mechanism for taxpayers to recover overpaid taxes."
+    },
+    {
+      "type": "credit",
+      "name": "Administrative Debt Relief Program (ADR)",
+      "source": "https://www.chicago.gov/city/en/sites/administrative-debt-relief-program/home.html",
+      "description": "The Administrative Debt Relief (ADR) Program provides hardship relief for individuals with administrative hearings debt. Eligible participants include those enrolled in Utility Billing Relief (UBR) or Clear Path Relief (CPR), or those with household income at or below 300% of Federal Poverty Guidelines. Benefits include waiving interest, costs, and fees by paying 50% of the fine amount or enrolling in a payment plan. Payment plans require a $25 minimum down payment and can extend up to 60 months. The program is only for individuals, not businesses, and has several exclusions such as vehicle violations, tax collection cases, and certain other specific types of violations."
+    }
+  ]
+]

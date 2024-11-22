@@ -1,0 +1,19 @@
+{
+  "salary": 40000,
+  "items": [
+    {
+      "name": "Illinois Earned Income Tax Credit (EITC)",
+      "explanation": "Based on your single status and income of $40,000 with no dependents, you qualify for the Illinois EITC. Your income falls within the eligibility limits for single filers with no qualifying children (limit is $63,398), and you have no investment income to disqualify you.",
+      "description": "The Illinois Earned Income Tax Credit (EITC) can be claimed on the 2023 IL-1040 tax return using Schedule IL-E/EIC. There are three scenarios for claiming the credit:\n\n1. If you qualified for the federal EITC: Complete Schedule IL-E/EIC, do not check box 5, and do not complete Page 3.\n\n2. If you qualified for the federal EITC but could not claim a child due to an ITIN: Check box 5 on Schedule IL-E/EIC and complete the Illinois Expanded EITC Worksheet on Page 3.\n\n3. If you did not qualify for the federal EITC (due to ITIN or age requirements) but qualify for the Illinois EITC: Check box 5 on Schedule IL-E/EIC and complete the Illinois Expanded EITC Worksheet on Page 3.",
+      "amount": 120,
+      "source": "https://tax.illinois.gov/programs/eitc.html"
+    },
+    {
+      "name": "Exemption Allowance",
+      "explanation": "As an Illinois tax filer who can claim themselves, you qualify for the standard exemption allowance.",
+      "description": "Illinois provides a $2,425 exemption for individual tax filers who can claim themselves on their tax return. If someone else claims the taxpayer as a dependent, they are not entitled to the exemption unless their Illinois base income is $2,425 or less. This is not a standard deduction like on the federal tax return, but rather an exemption amount.",
+      "amount": 2425,
+      "source": "https://tax.illinois.gov/individuals/studentquestions.html"
+    }
+  ]
+}
